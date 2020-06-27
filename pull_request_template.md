@@ -40,4 +40,4 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] Any dependent changes have been merged and published in downstream modules
 - [ ] I have checked my code and corrected any misspellings
 - [ ] I have checked my code and corrected any misspellings
-- [ ] A copy of an image from you data visualisation graphs or images
+- [ ] A copy of an image from your data visualisation graphs or images
