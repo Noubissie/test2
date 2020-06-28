@@ -40,3 +40,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] Any dependent changes have been merged and published in downstream modules
 - [ ] I have checked my code and corrected any misspellings
 - [ ] I have checked my code and corrected any misspellings
+<<<<<<< HEAD:pull_request_template.md
+=======
+- [ ] A copy of an image from your data visualisation graphs or images
+>>>>>>> origin/master:Pull request template.md

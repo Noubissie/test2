@@ -58,6 +58,7 @@
 * # git push:
         * git push -u [origin] <branch>: Pushing up to a github remote repository branch
 
+
 * # git hash-object:
         * echo "<name>" | hash-object --stdin : gits you the decode value of name using git SHA1 decoder.
 * # git cat-file <hash code,SHA1>:
@@ -71,4 +72,6 @@
 *Blob
 *tree
 *commit
-*Tags             
+*Tags            
+* # 
+
