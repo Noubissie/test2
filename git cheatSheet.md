@@ -27,9 +27,11 @@
         * show your the various branch names and commit name 
 * # git branch:
         * git branch "<name of new branch>"
+        * A branch is just a reference to a commit store in the refs/heads
 * # git checkout:
         * git checkout "<name of branch>" : checkout a particular branch
         * git checkout -b "name of branch" : creates a new branch then check it out 
+        * changes the Head pointer from one reference to another.
 * # git switch:
         * git switch <commit>
         * git switch -c <new_branch_name>
@@ -56,5 +58,17 @@
 * # git push:
         * git push -u [origin] <branch>: Pushing up to a github remote repository branch
 
-* # 
-        
+* # git hash-object:
+        * echo "<name>" | hash-object --stdin : gits you the decode value of name using git SHA1 decoder.
+* # git cat-file <hash code,SHA1>:
+        * options:
+            -t: the type of file
+            -p: print the decoded content of the file to the stdin  
+            
+* # git tag:
+        * git tag <option> <tagname> -m "<message>": this is a label attachesd to an object
+ 
+*Blob
+*tree
+*commit
+*Tags            
